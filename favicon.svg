@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #547d89;
+      }
+
+      .cls-2 {
+        fill: #53251e;
+        font-family: BarlowCondensed-Black, 'Barlow Condensed';
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: .03em;
+      }
+
+      .cls-3 {
+        fill: #fdcdc6;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x="0" y="0" width="48" height="48" rx="24" ry="24"/>
+  <text class="cls-2" transform="translate(9.48 36.67)"><tspan x="0" y="0">AL</tspan></text>
+  <polygon class="cls-1" points="26.34 12.62 23.99 10.9 21.63 12.6 22.54 9.84 20.19 8.12 23.1 8.13 24.01 5.36 24.9 8.13 27.81 8.14 25.45 9.84 26.34 12.62"/>
+</svg>

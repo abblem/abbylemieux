@@ -1,0 +1,343 @@
+body {
+	background-color: #fdcdc6;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.barlow-thin {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-extralight {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-light {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-medium {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-thin-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-extralight-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-light-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-regular-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-medium-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-semibold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-bold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-extrabold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-black-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	color: white;
+	font-family: 'Barlow';
+	font-size: 5rem;
+	font-weight: 900;
+}
+
+h2 {
+	color: #53251e;
+	font-family: 'Barlow';
+	font-size: 3rem;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Inter';
+	color: white;
+	font-size: 1rem;
+}
+
+p {
+	font-family: 'Inter';
+	font-size: 1rem;
+	font-weight: 400;
+	font-color: #53251e;
+	line-height: 1.8;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #FFE9E6;
+	gap: 10px;
+}
+
+.about {
+	border-radius: 30px;
+	background-color: #FFE9E6;
+	height: auto;
+	padding: 10px;
+	width: 65%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.abouttext {
+	display: flex;
+}
+
+.shortbio {
+	display: flex;
+	padding: 1.3em;
+}
+
+.headshot {
+	display: flex;
+	width: 25vw;
+	float: left;
+	padding: 30px;
+	max-width: 100%;
+	height: auto;
+}
+
+.work {
+	width: 65%;
+	margin: auto;
+	border-radius: 30px;
+	background-color: #FFE9E6;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+.img1 {
+	background-image: url('images/beachlot.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 600px;
+	display: block;
+	object-fit: contain;
+}
+
+.img2 {
+	background-image: url('images/waves.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	object-fit: contain;
+	flex: 20%;
+}
+
+.img3 {
+	background-image: url('images/flower.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	object-fit: contain;
+	flex: 20%;
+}
+
+.footer {
+	background-color: #547D89;
+}
+
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  
+  height: 50%;
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.button {
+	font-family: 'Barlow';
+	font-weight: 600;
+	font-size: 1.2rem;
+	color: white;
+	background-color: #53251e;
+	text-align: center;
+	
+	margin: 2em;
+	padding: 1em;;
+	border-radius: 10px;
+}
+
+.buttonbox {
+	display: flex;
+	justify-content: center;
+}
+
+header {
+  text-align: center;
+  flex: 100%;
+  position: relative;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Barlow';
+  font-weight: 900;
+}
+
+
+/* Style the topnav */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  justify-content: center;
+}
+
+nav li {
+position: relative;
+list-style: none;
+display: inline-block;
+}
+
+/* Style links in topnav */
+nav li a {
+  display: block;
+  float: left;
+  color: #53251e;
+  font-family: 'Inter';
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo-top {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+
+.star-image {
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: -3px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 8px;
+}

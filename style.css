@@ -203,7 +203,7 @@ p {
 }
 
 .img1 {
-	background-image: url('beachlot.png');
+	background-image: url('images/beachlot.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -214,7 +214,7 @@ p {
 }
 
 .img2 {
-	background-image: url('waves.png');
+	background-image: url('images/waves.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -226,7 +226,7 @@ p {
 }
 
 .img3 {
-	background-image: url('flower.png');
+	background-image: url('images/flower.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -236,11 +236,6 @@ p {
 	object-fit: contain;
 	flex: 20%;
 }
-
-.footer {
-	background-color: #547D89;
-}
-
 
 .hero-section {
   position: relative;
@@ -338,7 +333,24 @@ nav li a {
 }
 
 footer {
-  background-color: #f1f1f1;
   text-align: center;
   padding: 8px;
+  background-color: #547D89;
+}
+
+.footertxt {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.instaicon {
+	height: 40px;
+	width: 40px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.insta {
+	object-fit: contain;
+	height: 100%;
 }

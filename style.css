@@ -202,7 +202,7 @@ p {
 }
 
 .img1 {
-	background-image: url('images/beachlot.png');
+	background-image: url('beachlot.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -213,7 +213,7 @@ p {
 }
 
 .img2 {
-	background-image: url('images/waves.png');
+	background-image: url('waves.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -225,7 +225,7 @@ p {
 }
 
 .img3 {
-	background-image: url('images/flower.png');
+	background-image: url('flower.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

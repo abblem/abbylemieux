@@ -130,6 +130,7 @@ h1 {
 	font-family: 'Barlow';
 	font-size: 5rem;
 	font-weight: 900;
+	text-align: center;
 }
 
 h2 {
@@ -143,8 +144,19 @@ h2 {
 
 h3 {
 	font-family: 'Inter';
-	color: white;
+	color: #53251e;
+	font-size: 2rem;
+}
+
+.footertxt {
 	font-size: 1rem;
+	color: white;
+	font-family: 'Inter';
+}
+
+h4 {
+	font-family: 'Inter';
+	font-size: 1.2rem;
 }
 
 p {
@@ -391,4 +403,45 @@ footer {
 .insta {
 	object-fit: contain;
 	height: 100%;
+}
+
+.meandbro {
+  margin: auto;
+  width: 35rem;
+}
+
+.aboutimg{
+  width: 35rem;
+  margin-bottom: 2rem;
+}
+
+.artistbio {
+  width: 47rem;
+  margin: auto;
+  background-color: #FFE9E6;
+  padding: 3rem;
+  border-radius: 30px;
+  margin-bottom: 2rem;
+}
+
+.artistcv {
+  margin: auto;
+  width: 47rem;
+  background-color: #FFE9E6;
+  padding: 3rem;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.prof {
+  column-count: 2;
+  column-gap: 0px;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+ul {
+  font-family: 'inter';
+  font-size: 1.2rem;
+  list-style-type: none;
 }

@@ -149,7 +149,7 @@ h3 {
 
 p {
 	font-family: 'Inter';
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 400;
 	font-color: #53251e;
 	line-height: 1.8;
@@ -291,6 +291,7 @@ header {
 
 
 /* Style the topnav */
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -299,29 +300,67 @@ nav {
   padding: 0;
   overflow: hidden;
   background-color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.topnav {
   justify-content: center;
+  margin: auto;
 }
 
 nav li {
-position: relative;
-list-style: none;
-display: inline-block;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navimg {
+  width: 4.5rem;
+  height: auto;
+  float: left;
+  vertical-align: middle;
 }
 
 /* Style links in topnav */
 nav li a {
   display: block;
-  float: left;
   color: #53251e;
   font-family: 'Inter';
-  padding: 14px 16px;
+  font-size: 1.2rem;
   text-decoration: none;
+  vertical-align: middle;
 }
 
-.logo-top {
-    width: 36px;
-    height: 36px;
-    overflow: hidden;
+.topnav li a {
+  padding: 1rem 2rem;
+}
+
+.logocont {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-left: 5rem;
+}
+
+.logo {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  
+}
+
+.contact {
+	border: 1px solid #53251e;
+	margin-right: 5rem;
+	display: flex;
+	padding: 1.5rem;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+
 }
 
 .star-image {
@@ -329,7 +368,6 @@ nav li a {
 	height: 22px;
 	border-radius: 50%;
 	overflow: hidden;
-	margin-top: -3px;
 }
 
 footer {

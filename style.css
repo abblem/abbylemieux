@@ -5,6 +5,10 @@ body {
 	
 }
 
+font-family: "rl-horizon", sans-serif;
+font-weight: 700;
+font-style: normal;
+
 .barlow-thin {
   font-family: "Barlow", sans-serif;
   font-weight: 100;
@@ -176,7 +180,7 @@ p {
 
 .about {
 	border-radius: 30px;
-	background-color: #FFE9E6;
+	background-color: #ffe0db;
 	height: auto;
 	padding: 10px;
 	width: 65%;
@@ -208,14 +212,14 @@ p {
 	width: 65%;
 	margin: auto;
 	border-radius: 30px;
-	background-color: #FFE9E6;
+	background-color: #ffe0db;
 	padding: 10px;
 	margin-top: 10px;
 	margin-bottom: 60px;
 }
 
 .img1 {
-	background-image: url('beachlot.png');
+	background-image: url('images/beachlot.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -226,7 +230,7 @@ p {
 }
 
 .img2 {
-	background-image: url('waves.png');
+	background-image: url('images/waves.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -238,7 +242,7 @@ p {
 }
 
 .img3 {
-	background-image: url('flower.png');
+	background-image: url('images/flower.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -385,7 +389,12 @@ nav li a {
 footer {
   text-align: center;
   padding: 8px;
-  background-color: #547D89;
+  background-color: #547d89;
+}
+
+.footericons {
+   display: inline-flex;
+   margin-bottom: 50px;
 }
 
 .footertxt {
@@ -397,7 +406,18 @@ footer {
 	height: 40px;
 	width: 40px;
 	margin: auto;
-	margin-bottom: 50px;
+}
+
+.adobeicon {
+	width: 65px;
+	height: 65px;
+	margin: auto;
+	
+}
+
+.adobe {
+	height: 100%;
+	object-fit: contain;
 }
 
 .insta {
@@ -444,4 +464,35 @@ ul {
   font-family: 'inter';
   font-size: 1.2rem;
   list-style-type: none;
+}
+
+.profgallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.profgallery img {
+	width: calc(25% - 20px);
+	height: auto;
+	margin: 5px;
+}
+
+.profgallery img:hover {
+	
+}
+
+@media only screen and (max-width: 768px) {
+.profgallery {
+	width: calc(50% - 20px);
+}
+}
+
+@media only screen and (max-width: 480px) {
+.profgallery {
+	width: calc(100%-20px);
+}
+}
+
+.portfolioembed {
 }
